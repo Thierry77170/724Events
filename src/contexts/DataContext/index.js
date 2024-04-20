@@ -33,7 +33,7 @@ export const DataProvider = ({ children }) => {
   
   return (
     <DataContext.Provider
-      // eslint-disable-next-line react/jsx-no-constructed-context-values
+      // Désactiver la règle ESLint suivante pour la ligne suivante : react/jsx-no-constructed-context-values
       value={{
         data,
         error,
