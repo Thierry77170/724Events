@@ -17,7 +17,6 @@ const Page = () => {
 // On cherche le dernier événement en date
 const last = data?.events?.sort((a, b) => new Date(b.date) - new Date(a.date))[0];
 
-
   return <>
     <header>
       <Menu />
