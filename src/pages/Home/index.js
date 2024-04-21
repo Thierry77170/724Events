@@ -127,7 +127,7 @@ const last = data?.events?.sort((a, b) => new Date(b.date) - new Date(a.date))[0
             small
             label="boom"
           />
-        )}
+)}
       </div>
       <div className="col contact">
         <h3>Contactez-nous</h3>
@@ -135,16 +135,16 @@ const last = data?.events?.sort((a, b) => new Date(b.date) - new Date(a.date))[0
         <div>01 23 45 67 89</div>
         <div>contact@724events.com</div>
         <div>
-          <a href="#twitch">
+          <a href="https://www.twitch.tv/" target="_blank">
             <Icon name="twitch" />
           </a>
-          <a href="#facebook">
+          <a href="https://www.facebook.com" target="_blank">
             <Icon name="facebook" />
           </a>
-          <a href="#twitter">
+          <a href="https://twitter.com" target="_blank">
             <Icon name="twitter" />
           </a>
-          <a href="#youtube">
+          <a href="https://www.youtube.com" target="_blank">
             <Icon name="youtube" />
           </a>
         </div>

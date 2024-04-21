@@ -11,7 +11,7 @@ const Form = ({ onSuccess, onError }) => {
   const sendContact = useCallback(
     async (evt) => {
       evt.preventDefault();
-      setSending(true);
+      setSending(true); // Envoi en cours
       // We try to call mockContactApi
       try {
         await mockContactApi();
