@@ -1,5 +1,6 @@
-/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* Désactive la règle ESLint qui empêche les interactions avec des éléments non interactifs. */
+/* Désactive la règle ESLint qui exige que les événements de clic aient également des événements de touche associés 
+pour une accessibilité améliorée. */
 import { useState } from "react";
 import PropTypes from "prop-types";
 
@@ -16,7 +17,7 @@ const Select = ({
   const [value, setValue] = useState();
   const [collapsed, setCollapsed] = useState(true);
   const changeValue = (newValue) => {
-    onChange();
+    onChange(newValue);
     setValue(newValue);
     setCollapsed(newValue);
   };
