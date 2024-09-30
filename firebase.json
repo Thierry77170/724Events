@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "https://events-d5e6e.firebaseapp.com/",
     "public": "build",
     "ignore": [
       "firebase.json",
